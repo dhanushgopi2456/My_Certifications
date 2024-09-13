@@ -1,0 +1,160 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XZw7fY9HPNo5",
+        "outputId": "f836509b-2089-4ba4-94ef-0b7249ac4b88"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the citypalakol\n",
+            "{'location': {'name': 'Palakollu', 'region': 'Andhra Pradesh', 'country': 'India', 'lat': 16.53, 'lon': 81.73, 'tz_id': 'Asia/Kolkata', 'localtime_epoch': 1709307613, 'localtime': '2024-03-01 21:10'}, 'current': {'last_updated_epoch': 1709307000, 'last_updated': '2024-03-01 21:00', 'temp_c': 23.6, 'temp_f': 74.6, 'is_day': 0, 'condition': {'text': 'Clear ', 'icon': '//cdn.weatherapi.com/weather/64x64/night/113.png', 'code': 1000}, 'wind_mph': 3.6, 'wind_kph': 5.8, 'wind_degree': 174, 'wind_dir': 'S', 'pressure_mb': 1014.0, 'pressure_in': 29.95, 'precip_mm': 0.0, 'precip_in': 0.0, 'humidity': 88, 'cloud': 7, 'feelslike_c': 25.8, 'feelslike_f': 78.5, 'vis_km': 10.0, 'vis_miles': 6.0, 'uv': 1.0, 'gust_mph': 7.3, 'gust_kph': 11.7}}\n",
+            "city: Palakollu State: Andhra Pradesh country: India temperature: 23.6 wind speed(mph): 3.6 humidity: 88 feels like: 25.8 wind_direction: S\n"
+          ]
+        }
+      ],
+      "source": [
+        "import requests\n",
+        "api_key='b69b3327b09e477d99853722242802'\n",
+        "city=input(\"enter the city\")\n",
+        "url=f\"http://api.weatherapi.com/v1/current.json?key={api_key}&q={city}\"\n",
+        "response=requests.get(url)\n",
+        "data=response.json()\n",
+        "print(data)\n",
+        "\n",
+        "if response.status_code==200:\n",
+        "   print(\"city:\",data['location']['name'],\"State:\",data['location']['region'],\"country:\",data['location']['country'],\"temperature:\",data['current']['temp_c'],\"wind speed(mph):\",data['current']['wind_mph'],\"humidity:\",data['current']['humidity'],\"feels like:\",data['current']['feelslike_c'],\"wind_direction:\",data['current']['wind_dir'])\n",
+        "else:\n",
+        "  print(data['error']['messege'])\n",
+        "\n",
+        "#printing\n",
+        " # print(\"city:\",data['location']['name'],\"State:\",data['location']['region'],\"country:\",data['location']['country'],\"temperature:\",data['current']['temp_c'],\"wind speed(mph):\",data['current']['wind_mph'],\"humidity:\",data['current']['humidity'],\"feels like:\",data['current']['feelslike_c'],\"wind_direction:\",data['current']['wind_dir'])"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "type(data)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "H4tI_EvDR1tv",
+        "outputId": "2a124451-1577-46b2-de67-305e4e4feb49"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "dict"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 6
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "data['location']['name']"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 36
+        },
+        "id": "X2ZH_9sHSCyq",
+        "outputId": "9311b41e-8de9-4618-c601-073ce13c3113"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'Palakollu'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"city :\",data['location']['name'])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jxPGiHXvSSW_",
+        "outputId": "ae7b4a5f-b8f0-40bd-8d4b-e817fba9c7c6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "city : Palakollu\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#city : name,state : region, country:country,temperature:in \"c\"  wind in speed(mph):wind mph humidity:humidity  feels like:feels like\n",
+        "print(\"city:\",data['location']['name'],\"State:\",data['location']['region'],\"country:\",data['location']['country'],\"temperature:\",data['current']['temp_c'],\"wind speed(mph):\",data['current']['wind_mph'],\"humidity:\",data['current']['humidity'],\"feels like:\",data['current']['feelslike_c'],\"wind_direction:\",data['current']['wind_dir'])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XmyFxc2jSZVU",
+        "outputId": "e157a92f-14eb-4aad-d739-b5fe2d709146"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "city: Palakollu State: Andhra Pradesh country: India temperature: 34.1 wind speed(mph): 5.4 humidity: 35 feels like: 35.2 wind_direction: SE\n"
+          ]
+        }
+      ]
+    }
+  ]
+}

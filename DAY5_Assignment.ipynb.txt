@@ -1,0 +1,69 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6Gbz2oGtO1FH",
+        "outputId": "20346a17-2d7f-4cb0-f725-50cfdf4cdfdb"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'data': {'translations': [{'translatedText': 'வணக்கம், உலகம்!'}]}}\n"
+          ]
+        }
+      ],
+      "source": [
+        "#google translator\n",
+        "import requests\n",
+        "\n",
+        "url = \"https://google-translate1.p.rapidapi.com/language/translate/v2\"\n",
+        "\n",
+        "payload = {\n",
+        "\t\"q\": \"Hello, world!\",\n",
+        "\t\"target\": \"ta\",\n",
+        "\t\"source\": \"en\"\n",
+        "}\n",
+        "headers = {\n",
+        "\t\"content-type\": \"application/x-www-form-urlencoded\",\n",
+        "\t\"Accept-Encoding\": \"application/gzip\",\n",
+        "\t\"X-RapidAPI-Key\": \"1270e18793msh0083bf5af84a049p154da0jsn86db59bb1f09\",\n",
+        "\t\"X-RapidAPI-Host\": \"google-translate1.p.rapidapi.com\"\n",
+        "}\n",
+        "\n",
+        "response = requests.post(url, data=payload, headers=headers)\n",
+        "\n",
+        "print(response.json())"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "fnAow8yCUMqs"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
