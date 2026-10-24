@@ -389,5 +389,5 @@ I believe certifications are most valuable when supported by practical work, con
   <strong>🚀 Learn. Build. Improve. Repeat.</strong><br/><br/>
   Turning curiosity into knowledge and knowledge into practical skills.
   <br/><br/>
-  ⭐ If you find this repository useful, consider giving it a star!
+  ⭐ If you find this repository useful, consider giving it a star
 </p>
