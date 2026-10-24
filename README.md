@@ -1,5 +1,7 @@
-<!-- Animated README header --><img width="1917" height="890" alt="image" src="https://github.com/user-attachments/assets/89767e08-b14e-4df9-8339-343372ca6f5b" />
-
+<!-- Animated README header -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:2563EB,50:7C3AED,100:059669&amp;height=210&amp;section=header&amp;text=Certifications%20%26%20Learning&amp;fontSize=36&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=35&amp;desc=Continuous%20Learning%20%7C%20Hands-on%20Practice%20%7C%20Growth&amp;descAlignY=55&amp;descSize=15" alt="Certifications and Learning banner" width="100%" />
+</p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&width=700&lines=Learn+the+fundamentals;Practice+with+real+notebooks;Explore+AI%2C+ML+and+Data+Science;Build+skills+one+step+at+a+time" alt="Animated learning focus" />
