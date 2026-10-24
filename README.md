@@ -1,3 +1,14 @@
+<!-- Animated README header -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,50:7C3AED,100:059669&height=210&section=header&text=Certifications%20%26%20Learning&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Continuous%20Learning%20%7C%20Hands-on%20Practice%20%7C%20Growth&descAlignY=55&descSize=15" alt="Certifications and Learning banner" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&width=700&lines=Learn+the+fundamentals;Practice+with+real+notebooks;Explore+AI%2C+ML+and+Data+Science;Build+skills+one+step+at+a+time" alt="Animated learning focus" />
+</p>
+
+# 🏆 Certifications & Technical Learning Portfolio
+
 # 🏆 Certifications & Technical Learning Portfolio
 
 <p align="center">
@@ -22,6 +33,14 @@
 </p>
 
 ---
+
+<!-- Quick navigation buttons -->
+<p align="center">
+  <a href="#-professional-certifications"><img src="https://img.shields.io/badge/🏅_Certifications-2563EB?style=for-the-badge" alt="Certifications" /></a>
+  <a href="#-technical-skills--learning-areas"><img src="https://img.shields.io/badge/🛠️_Skills-7C3AED?style=for-the-badge" alt="Technical Skills" /></a>
+  <a href="#-hands-on-notebooks--practice"><img src="https://img.shields.io/badge/🧪_Practice-059669?style=for-the-badge" alt="Hands-on Practice" /></a>
+  <a href="#-repository-structure"><img src="https://img.shields.io/badge/📂_Structure-EA580C?style=for-the-badge" alt="Repository Structure" /></a>
+</p>
 
 ## 📌 About This Repository
 
@@ -303,6 +322,14 @@ My_Certifications/
 
 ---
 
+### 📊 Repository Snapshot
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-Continuous%20Learning-2563EB?style=for-the-badge&logo=github" alt="Continuous Learning" />
+  <img src="https://img.shields.io/badge/Practice-Python%20%7C%20Java-7C3AED?style=for-the-badge" alt="Python and Java Practice" />
+  <img src="https://img.shields.io/badge/Explore-AI%20%7C%20ML%20%7C%20Data%20Science-059669?style=for-the-badge" alt="AI ML Data Science" />
+</p>
+
 # 🗺️ My Learning Journey
 
 <p align="center">
@@ -325,6 +352,28 @@ My learning approach combines structured courses with hands-on implementation.
 The goal is to turn theoretical understanding into practical engineering skills.
 
 ---
+
+### 🔄 My Learning Workflow
+
+```mermaid
+flowchart LR
+    A["📘 Learn concepts"] --> B["🧪 Practice exercises"]
+    B --> C["📊 Analyze results"]
+    C --> D["🛠️ Apply in projects"]
+    D --> E["🔁 Review and improve"]
+
+    classDef learn fill:#DBEAFE,stroke:#2563EB,color:#1E3A8A,stroke-width:2px;
+    classDef practice fill:#EDE9FE,stroke:#7C3AED,color:#4C1D95,stroke-width:2px;
+    classDef analyze fill:#D1FAE5,stroke:#059669,color:#064E3B,stroke-width:2px;
+    classDef build fill:#FFEDD5,stroke:#EA580C,color:#9A3412,stroke-width:2px;
+    classDef improve fill:#FCE7F3,stroke:#DB2777,color:#831843,stroke-width:2px;
+
+    class A learn;
+    class B practice;
+    class C analyze;
+    class D build;
+    class E improve;
+```
 
 # 📈 Skill Development Overview
 
@@ -371,6 +420,11 @@ It brings together:
 I believe certifications are most valuable when supported by practical work, consistent practice, and a willingness to keep learning.
 
 ---
+
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,50:7C3AED,100:059669&height=3&section=footer" alt="" width="100%" />
+</p>
 
 # 🔗 Connect With Me
 
