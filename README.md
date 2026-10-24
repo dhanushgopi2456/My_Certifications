@@ -9,8 +9,6 @@
 
 # 🏆 Certifications & Technical Learning Portfolio
 
-# 🏆 Certifications & Technical Learning Portfolio
-
 <p align="center">
   <img src="https://img.shields.io/badge/Portfolio-Certifications%20%26%20Learning-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Certifications and Learning Portfolio" />
   <img src="https://img.shields.io/badge/Focus-AI%20%7C%20ML%20%7C%20Data%20Science-7C3AED?style=for-the-badge" alt="AI ML Data Science" />
