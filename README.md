@@ -1,7 +1,6 @@
-
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,50:7C3AED,100:059669&height=220&section=header&text=Certifications%20%26%20Learning&fontSize=35&fontColor=ffffff&animation=fadeIn&fontAlignY=35"
+    src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:2563EB,50:7C3AED,100:059669&amp;height=220&amp;section=header&amp;text=Certifications%20and%20Learning&amp;fontSize=35&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=35"
     alt="Certifications and Learning Banner"
     width="100%"
   />
