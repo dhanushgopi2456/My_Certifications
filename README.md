@@ -1,7 +1,5 @@
 <!-- Animated README header -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,50:7C3AED,100:059669&height=210&section=header&text=Certifications%20%26%20Learning&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Continuous%20Learning%20%7C%20Hands-on%20Practice%20%7C%20Growth&descAlignY=55&descSize=15" alt="Certifications and Learning banner" width="100%" />
-</p>
+
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&width=700&lines=Learn+the+fundamentals;Practice+with+real+notebooks;Explore+AI%2C+ML+and+Data+Science;Build+skills+one+step+at+a+time" alt="Animated learning focus" />
