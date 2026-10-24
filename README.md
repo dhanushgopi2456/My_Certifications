@@ -1,4 +1,4 @@
-<!-- Animated README header -->
+
 <p align="center">
   <img
     src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,50:7C3AED,100:059669&height=220&section=header&text=Certifications%20%26%20Learning&fontSize=35&fontColor=ffffff&animation=fadeIn&fontAlignY=35"
